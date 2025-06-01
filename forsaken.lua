@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
 
-local Window = Library.CreateLib("c00lgui V0.9", "RJTheme4")
+local Window = Library.CreateLib("c00lgui V0.91", "RJTheme4")
 
 local Tab = Window:NewTab("tps(only 1 charecter in one team)")
 
@@ -10,7 +10,7 @@ Section:NewButton("teleport like 007n7 (only chance)", "teleport like 007n7", fu
   local randomNumber = math.random(1,6)
   print(randomNumber)
   wait(6)
-  workspace.Players.Survivors["chance"]["Left Arm"].CFrame = workspace.Map.Ingame.Map.SpawnPoints.Survivors:GetChildren()[randomNumber].CFrame
+  workspace.Players.Survivors["Chance"]["Left Arm"].CFrame = workspace.Map.Ingame.Map.SpawnPoints.Survivors:GetChildren()[randomNumber].CFrame
 end)
 
 Section:NewButton("teleport like 007n7(only guest)", "teleport like 007n7", function()
