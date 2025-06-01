@@ -164,7 +164,7 @@ Section:NewButton("item Epicsauce teleport to you(only 007n7)", "item Epicsauce 
   workspace.Players.Survivors["007n7"]["Left Arm"].CFrame = workspace.Map.Ingame.Epicsauce.CFrame
 end)
 
-local Tab = Window:NewTab("c00lgui-johnDoe-magic")
+local Tab = Window:NewTab("c00lgui nighmare")
 
 --телепортация к игрокам за джон до
 
