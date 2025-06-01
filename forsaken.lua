@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
 
-local Window = Library.CreateLib("c00lgui V1.12", "RJTheme4")
+local Window = Library.CreateLib("c00lgui V1.18", "RJTheme4")
 
 local Tab = Window:NewTab("c00lgui")
 
@@ -14,7 +14,7 @@ Section:NewButton("shedletsky teleport like 007n7", "teleport like 007n7", funct
   local randomNumber = math.random(1,6)
   print(randomNumber)
   wait(6)
-  workspace.Players.Survivors["shedletsky"]["Left Arm"].CFrame = workspace.Map.Ingame.Map.SpawnPoints.Survivors:GetChildren()[randomNumber].CFrame
+  workspace.Players.Survivors.Shedletsky["Left Arm"].CFrame = workspace.Map.Ingame.Map.SpawnPoints.Survivors:GetChildren()[randomNumber].CFrame
 end)
 
 Section:NewButton("chance teleport like 007n7", "teleport like 007n7", function()
