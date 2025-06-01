@@ -8,7 +8,7 @@ local Section = Tab:NewSection("teleport like 007n7")
 
 game:GetService("UserInputService").JumpRequest:connect(onJumpRequest)
 
--- телепорт как 007н7
+-- телепорт как 007н7а
 
 Section:NewButton("chance teleport like 007n7", "teleport like 007n7", function()
   local randomNumber = math.random(1,6)
