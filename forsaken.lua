@@ -253,3 +253,13 @@ Section:NewButton("John Doe teleport to Taph", "John Doe teleport to Taph", func
   Text.Text = " "
   workspace.Players.Killers.JohnDoe["Right Leg"].CFrame = workspace.Players.Survivors.JohnDoe.Head.CFrame
 end)
+
+local Tab = Window:NewTab("Mandy script")
+local Section = Tab:NewSection("c00l Mandy script")
+
+Section:NewButton("open Mandy script", "open Mandy script", function()
+  Text.Text = "1"
+  wait(1)
+  Text.Text = " "
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/MaybeNotMandy/forsaken/refs/heads/main/sae"))()
+end)
