@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
 
-local Window = Library.CreateLib("c00lgui V2.0 ", "RJTheme4")
+local Window = Library.CreateLib("c00lgui V2.05 ", "RJTheme4")
 
 local Tab = Window:NewTab("c00lgui")
 
@@ -426,7 +426,43 @@ end)
 local Tab = Window:NewTab("Tr00lgui")
 local Section = Tab:NewSection("Tr00lgui")
 
-Section:NewKeybind("(10s) Guest up", "(10s) tp up", Enum.KeyCode.P, function()
+Section:NewToggle("(10s) Guest up", "(10s) Guest up", function(state)
+    if state then
+        workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Guest1337.QueryHitbox.CFrame
+		wait(0.04)
+		workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Guest1337.QueryHitbox.CFrame
+		wait(0.04)
+		workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Guest1337.QueryHitbox.CFrame
+    else
+        workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = CFrame.new(-3543.51733, 0.833288789, 837.421021, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    end
+end)
+
+Section:NewToggle("(10s)Shedletsky Guest up", "(10s) Shedletsky Guest up", function(state)
+    if state then
+        workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Shedletsky.QueryHitbox.CFrame
+		wait(0.04)
+		workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Shedletsky.QueryHitbox.CFrame
+		wait(0.04)
+		workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Shedletsky.QueryHitbox.CFrame
+    else
+        workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = CFrame.new(-3543.51733, 0.833288789, 837.421021, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    end
+end)
+
+Section:NewToggle("(10s) Two time up", "(10s) Two time up", function(state)
+    if state then
+        workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.TwoTime.QueryHitbox.CFrame
+		wait(0.04)
+		workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.TwoTime.QueryHitbox.CFrame
+		wait(0.04)
+		workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.TwoTime.QueryHitbox.CFrame
+    else
+        workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = CFrame.new(-3543.51733, 0.833288789, 837.421021, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    end
+end)
+
+Section:NewKeybind("(10s) Guest up", "(10s) Shedletsky tp up", Enum.KeyCode.M, function()
 	workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].Transparency = 0.5555555
 	workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Guest1337.QueryHitbox.CFrame
 	wait(0.06)
@@ -437,13 +473,24 @@ Section:NewKeybind("(10s) Guest up", "(10s) tp up", Enum.KeyCode.P, function()
 	workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = CFrame.new(-3543.51733, 0.833288789, 837.421021, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 end)
 
+Section:NewKeybind("(10s) Shedletsky up", "(10s) Shedletsky", Enum.KeyCode.P, function()
+	workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].Transparency = 0.5555555
+	workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Shedletsky.QueryHitbox.CFrame
+	wait(0.06)
+	workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Shedletsky.QueryHitbox.CFrame
+	wait(0.06)
+	workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Shedletsky.QueryHitbox.CFrame
+	wait(10)
+	workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = CFrame.new(-3543.51733, 0.833288789, 837.421021, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
 Section:NewKeybind("(10s) Two time up", "(10s) tp up", Enum.KeyCode.L, function()
 	workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].Transparency = 0.5555555
-	workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Guest1337.QueryHitbox.CFrame
+	workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.TwoTime.QueryHitbox.CFrame
 	wait(0.06)
-	workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Guest1337.QueryHitbox.CFrame
+	workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.TwoTime.QueryHitbox.CFrame
 	wait(0.06)
-	workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Guest1337.QueryHitbox.CFrame
+	workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.TwoTime.QueryHitbox.CFrame
 	wait(10)
 	workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = CFrame.new(-3543.51733, 0.833288789, 837.421021, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 end)
