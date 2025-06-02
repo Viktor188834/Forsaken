@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
 
-local Window = Library.CreateLib("c00lgui V1.6667", "RJTheme4")
+local Window = Library.CreateLib("c00lgui V1.8", "RJTheme4")
 
 local Tab = Window:NewTab("c00lgui")
 
@@ -247,20 +247,168 @@ Section:NewButton("John Doe teleport to Ena", "John Doe teleport to Ena", functi
   workspace.Players.Killers.JohnDoe["Right Leg"].CFrame = workspace.Players.Survivors.Ena.Head.CFrame
 end)
 
-Section:NewButton("John Doe teleport to Taph", "John Doe teleport to Taph", function()
+Section:NewButton("John Doe teleport to JaneDoe", "John Doe teleport to JaneDoe", function()
   Text.Text = "1"
   Square.Transparency = 0.8
   wait(1)
   Text.Text = " "
   Square.Transparency = 0
-  workspace.Players.Killers.JohnDoe["Right Leg"].CFrame = workspace.Players.Survivors.JohnDoe.Head.CFrame
+  workspace.Players.Killers.JohnDoe["Right Leg"].CFrame = workspace.Players.Survivors.JaneDoe.Head.CFrame
+end)
+
+local Tab = Window:NewTab("Jason hunt")
+
+local Section = Tab:NewSection("Jason hunt")
+
+Section:NewButton("Jason teleport to Noob", "Jason teleport to Noob", function()
+  Text.Text = "1"
+  Square.Transparency = 0.8
+  wait(1)
+  Text.Text = " "
+  Square.Transparency = 0
+  workspace.Players.Killers.Jason["Left Leg"].CFrame = workspace.Players.Survivors["Noob"].Head.CFrame
+end)
+
+Section:NewButton("Jason teleport to Elliot", "JJason teleport to Elliot", function()
+  Text.Text = "1"
+  Square.Transparency = 0.8
+  wait(1)
+  Text.Text = " "
+  Square.Transparency = 0
+  workspace.Players.Killers.Jason["Left Leg"].CFrame = workspace.Players.Survivors["Elliot"].Head.CFrame
+end)
+
+Section:NewButton("Jason teleport to Shedletsky", "Jason teleport to Shedletsky", function()
+  Text.Text = "1"
+  Square.Transparency = 0.8
+  wait(1)
+  Text.Text = " "
+  Square.Transparency = 0
+  workspace.Players.Killers.Jason["Left Leg"].CFrame = workspace.Players.Survivors["Shedletsky"].Head.CFrame
+end)
+
+Section:NewButton("Jason teleport to 007n7", "Jason teleport to 007n7", function()
+  Text.Text = "1"
+  Square.Transparency = 0.8
+  wait(1)
+  Text.Text = " "
+  Square.Transparency = 0
+  workspace.Players.Killers.Jason["Left Leg"].CFrame = workspace.Players.Survivors["007n7"].Head.CFrame
+end)
+
+Section:NewButton("Jason teleport to Builderman", "Jason teleport to Builderman", function()
+  Text.Text = "1"
+  Square.Transparency = 0.8
+  wait(1)
+  Text.Text = " "
+  Square.Transparency = 0
+  workspace.Players.Killers.Jason["Left Leg"].CFrame = workspace.Players.Survivors["Builderman"].Head.CFrame
+end)
+
+Section:NewButton("Jason teleport to Guest1337", "Jason teleport to Guest1337", function()
+  Text.Text = "1"
+  Square.Transparency = 0.8
+  wait(1)
+  Text.Text = " "
+  Square.Transparency = 0
+  workspace.Players.Killers.Jason["Left Leg"].CFrame = workspace.Players.Survivors["Guest1337"].Head.CFrame
+end)
+
+Section:NewButton("Jason teleport to TwoTime", "Jason teleport to TwoTime", function()
+  Text.Text = "1"
+  Square.Transparency = 0.8
+  wait(1)
+  Text.Text = " "
+  Square.Transparency = 0
+  workspace.Players.Killers.Jason["Left Leg"].CFrame = workspace.Players.Survivors["TwoTime"].Head.CFrame
+end)
+
+Section:NewButton("Jason teleport to Dusekkar", "Jason teleport to Dusekkar", function()
+  Text.Text = "1"
+  Square.Transparency = 0.8
+  wait(1)
+  Text.Text = " "
+  Square.Transparency = 0
+  workspace.Players.Killers.Jason["Left Leg"].CFrame = workspace.Players.Survivors["Dusekkar"].Head.CFrame
+end)
+
+Section:NewButton("Jason teleport to Taph", "Jason teleport to Taph", function()
+  Text.Text = "1"
+  Square.Transparency = 0.8
+  wait(1)
+  Text.Text = " "
+  Square.Transparency = 0
+  workspace.Players.Killers.Jason["Left Leg"].CFrame = workspace.Players.Survivors["Taph"].Head.CFrame
+end)
+
+Section:NewButton("Jason teleport to Chance", "Jason teleport to Chance", function()
+  Text.Text = "1"
+  Square.Transparency = 0.8
+  wait(1)
+  Text.Text = " "
+  Square.Transparency = 0
+  workspace.Players.Killers.Jason["Left Leg"].CFrame = workspace.Players.Survivors["Chance"].Head.CFrame
+end)
+
+Section:NewButton("Jason teleport to Ena", "Jason teleport to Ena", function()
+  Text.Text = "1"
+  Square.Transparency = 0.8
+  wait(1)
+  Text.Text = " "
+  Square.Transparency = 0
+  workspace.Players.Killers.Jason["Left Leg"].CFrame = workspace.Players.Survivors.Ena.Head.CFrame
+end)
+
+Section:NewButton("Jason teleport to Taph", "Jason teleport to Taph", function()
+  Text.Text = "1"
+  Square.Transparency = 0.8
+  wait(1)
+  Text.Text = " "
+  Square.Transparency = 0
+  workspace.Players.Killers.Jason["Left Leg"].CFrame = workspace.Players.Survivors.JohnDoe.Head.CFrame
 end)
 
 local Tab = Window:NewTab("c00l Mandy script")
 local Section = Tab:NewSection("c00l mandy script")
 Section:NewButton("open Mandy script", "open Mandy script", function()
   Text.Text = "1"
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/MaybeNotMandy/forsaken/refs/heads/main/sae"))()
   wait(1)
   Text.Text = " "
+end)
+
+Section:NewButton("open Mandy script x3", "open Mandy script", function()
+  Text.Text = "1"
   loadstring(game:HttpGet("https://raw.githubusercontent.com/MaybeNotMandy/forsaken/refs/heads/main/sae"))()
+  wait(1)
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/MaybeNotMandy/forsaken/refs/heads/main/sae"))()
+  wait(1)
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/MaybeNotMandy/forsaken/refs/heads/main/sae"))()
+  wait(1)
+  Text.Text = " "
+end)
+
+Section:NewButton("open Mandy script x10", "open Mandy script", function()
+  Text.Text = "1"
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/MaybeNotMandy/forsaken/refs/heads/main/sae"))()
+  wait(1)
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/MaybeNotMandy/forsaken/refs/heads/main/sae"))()
+  wait(1)
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/MaybeNotMandy/forsaken/refs/heads/main/sae"))()
+  wait(1)
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/MaybeNotMandy/forsaken/refs/heads/main/sae"))()
+  wait(1)
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/MaybeNotMandy/forsaken/refs/heads/main/sae"))()
+  wait(1)
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/MaybeNotMandy/forsaken/refs/heads/main/sae"))()
+  wait(1)
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/MaybeNotMandy/forsaken/refs/heads/main/sae"))()
+  wait(1)
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/MaybeNotMandy/forsaken/refs/heads/main/sae"))()
+  wait(1)
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/MaybeNotMandy/forsaken/refs/heads/main/sae"))()
+  wait(1)
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/MaybeNotMandy/forsaken/refs/heads/main/sae"))()
+  wait(1)
+  Text.Text = " "
 end)
