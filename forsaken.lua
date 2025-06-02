@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
 
-local Window = Library.CreateLib("c00lgui V2.05 ", "RJTheme4")
+local Window = Library.CreateLib("c00lgui V2.15 ", "RJTheme4")
 
 local Tab = Window:NewTab("c00lgui")
 
@@ -150,6 +150,13 @@ Section:NewButton("007n7 teleport like 007n7", "teleport like 007n7", function()
   wait(1)
   Text.Text = " "
   workspace.Players.Survivors["007n7"]["Left Arm"].CFrame = workspace.Map.Ingame.Map.SpawnPoints.Survivors:GetChildren()[randomNumber].CFrame
+end)
+
+Section:NewButton("full bright", "full bright", function()
+	game:GetService("Lighting").Brightness = 5
+	game:GetService("Lighting").ClockTime = 10
+	game:GetService("Lighting").FogEnd = 786543
+	game:GetService("Lighting").GlobalShadows = false
 end)
 
 --телепортация к игрокам за джон до
