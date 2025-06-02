@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
 
-local Window = Library.CreateLib("c00lgui V1.8", "RJTheme4")
+local Window = Library.CreateLib("c00lgui V1.9", "RJTheme4")
 
 local Tab = Window:NewTab("c00lgui")
 
@@ -45,6 +45,8 @@ Section:NewButton("shedletsky teleport like 007n7", "teleport like 007n7", funct
   wait(1)
   Text.Text = "H0aKci7ng Sy5st7m su1C4fful7"
   Square.Transparency = 0
+  wait(1)
+  Text.Text = " "
   workspace.Players.Survivors.Shedletsky["Left Arm"].CFrame = workspace.Map.Ingame.Map.SpawnPoints.Survivors:GetChildren()[randomNumber].CFrame
 end)
 
@@ -69,6 +71,8 @@ Section:NewButton("two time teleport like 007n7", "teleport like 007n7", functio
   wait(1)
   Text.Text = "H0aKci7ng Sy5st7m su1C4fful7"
   Square.Transparency = 0
+  wait(1)
+  Text.Text = " "
   workspace.Players.Survivors.TwoTime["Left Arm"].CFrame = workspace.Map.Ingame.Map.SpawnPoints.Survivors:GetChildren()[randomNumber].CFrame
 end)
 
@@ -91,6 +95,8 @@ Section:NewButton("chance teleport like 007n7", "teleport like 007n7", function(
   wait(1)
   Text.Text = "H0aKci7ng Sy5st7m su1C4fful7"
   Square.Transparency = 0
+  wait(1)
+  Text.Text = " "
   workspace.Players.Survivors["chance"]["Left Arm"].CFrame = workspace.Map.Ingame.Map.SpawnPoints.Survivors:GetChildren()[randomNumber].CFrame
 end)
 
@@ -115,6 +121,8 @@ Section:NewButton("guest teleport like 007n7", "teleport like 007n7", function()
   wait(1)
   Text.Text = " "
   Square.Transparency = 0
+  wait(1)
+  Text.Text = " "
   workspace.Players.Survivors["Guest1337"]["Left Arm"].CFrame = workspace.Map.Ingame.Map.SpawnPoints.Survivors:GetChildren()[randomNumber].CFrame
 end)
 
@@ -139,6 +147,8 @@ Section:NewButton("007n7 teleport like 007n7", "teleport like 007n7", function()
   wait(1)
   Text.Text = " "
   Square.Transparency = 0
+  wait(1)
+  Text.Text = " "
   workspace.Players.Survivors["007n7"]["Left Arm"].CFrame = workspace.Map.Ingame.Map.SpawnPoints.Survivors:GetChildren()[randomNumber].CFrame
 end)
 
@@ -411,4 +421,12 @@ Section:NewButton("open Mandy script x10", "open Mandy script", function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/MaybeNotMandy/forsaken/refs/heads/main/sae"))()
   wait(1)
   Text.Text = " "
+end)
+
+local Tab = Window:NewTab("c00lTrolling")
+local Section = Tab:NewSection("c00lTrolling")
+
+Section:NewKeybind("(10s) Guest up", "(10s) tp up", Enum.KeyCode.G, function()
+	workspace.Map.Lobby.Interior["\208\158\209\129\208\189\208\190\208\178\208\189\208\190\208\185 \208\180\208\190\208\188 (\209\129\208\191\208\176\208\178\208\189)"]["\208\159\208\190\208\187"].Transparency = 0.05
+	workspace.Map.Lobby.Interior["\208\158\209\129\208\189\208\190\208\178\208\189\208\190\208\185 \208\180\208\190\208\188 (\209\129\208\191\208\176\208\178\208\189)"]["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Guest1337.QueryHitbox.CFrame
 end)
