@@ -369,16 +369,16 @@ Section:NewButton("Jason teleport to Ena", "Jason teleport to Ena", function()
   workspace.Players.Killers.Jason["Left Leg"].CFrame = workspace.Players.Survivors.Ena.Head.CFrame
 end)
 
-Section:NewButton("Jason teleport to Taph", "Jason teleport to Taph", function()
+Section:NewButton("Jason teleport to Jane doe", "Jason teleport to Jane doe", function()
   Text.Text = "1"
   Square.Transparency = 0.8
   wait(1)
   Text.Text = " "
   Square.Transparency = 0
-  workspace.Players.Killers.Jason["Left Leg"].CFrame = workspace.Players.Survivors.JohnDoe.Head.CFrame
+  workspace.Players.Killers.Jason["Left Leg"].CFrame = workspace.Players.Survivors.JaneDoe.Head.CFrame
 end)
 
-local Tab = Window:NewTab("c00l Mandy script")
+local Tab = Window:NewTab("(no)c00l Mandy script")
 local Section = Tab:NewSection("c00l mandy script")
 Section:NewButton("open Mandy script", "open Mandy script", function()
   Text.Text = "1"
@@ -423,10 +423,27 @@ Section:NewButton("open Mandy script x10", "open Mandy script", function()
   Text.Text = " "
 end)
 
-local Tab = Window:NewTab("c00lTrolling")
+local Tab = Window:NewTab("c00lTrolling (russaken)")
 local Section = Tab:NewSection("c00lTrolling")
 
 Section:NewKeybind("(10s) Guest up", "(10s) tp up", Enum.KeyCode.G, function()
-	workspace.Map.Lobby.Interior["\208\158\209\129\208\189\208\190\208\178\208\189\208\190\208\185 \208\180\208\190\208\188 (\209\129\208\191\208\176\208\178\208\189)"]["\208\159\208\190\208\187"].Transparency = 0.05
+	workspace.Map.Lobby.Interior["\208\158\209\129\208\189\208\190\208\178\208\189\208\190\208\185 \208\180\208\190\208\188 (\209\129\208\191\208\176\208\178\208\189)"]["\208\159\208\190\208\187"].Transparency = 0.5555555
 	workspace.Map.Lobby.Interior["\208\158\209\129\208\189\208\190\208\178\208\189\208\190\208\185 \208\180\208\190\208\188 (\209\129\208\191\208\176\208\178\208\189)"]["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Guest1337.QueryHitbox.CFrame
+	wait(0.1)
+	workspace.Map.Lobby.Interior["\208\158\209\129\208\189\208\190\208\178\208\189\208\190\208\185 \208\180\208\190\208\188 (\209\129\208\191\208\176\208\178\208\189)"]["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Guest1337.QueryHitbox.CFrame
+	wait(0.1)
+	workspace.Map.Lobby.Interior["\208\158\209\129\208\189\208\190\208\178\208\189\208\190\208\185 \208\180\208\190\208\188 (\209\129\208\191\208\176\208\178\208\189)"]["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Guest1337.QueryHitbox.CFrame
+	wait(10)
+	workspace.Map.Lobby.Interior["\208\158\209\129\208\189\208\190\208\178\208\189\208\190\208\185 \208\180\208\190\208\188 (\209\129\208\191\208\176\208\178\208\189)"]["\208\159\208\190\208\187"].CFrame = 
+end)
+
+Section:NewKeybind("(10s) Two time up", "(10s) tp up", Enum.KeyCode.G, function()
+	workspace.Map.Lobby.Interior["\208\158\209\129\208\189\208\190\208\178\208\189\208\190\208\185 \208\180\208\190\208\188 (\209\129\208\191\208\176\208\178\208\189)"]["\208\159\208\190\208\187"].Transparency = 0.5555555
+	workspace.Map.Lobby.Interior["\208\158\209\129\208\189\208\190\208\178\208\189\208\190\208\185 \208\180\208\190\208\188 (\209\129\208\191\208\176\208\178\208\189)"]["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Guest1337.QueryHitbox.CFrame
+	wait(0.1)
+	workspace.Map.Lobby.Interior["\208\158\209\129\208\189\208\190\208\178\208\189\208\190\208\185 \208\180\208\190\208\188 (\209\129\208\191\208\176\208\178\208\189)"]["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Guest1337.QueryHitbox.CFrame
+	wait(0.1)
+	workspace.Map.Lobby.Interior["\208\158\209\129\208\189\208\190\208\178\208\189\208\190\208\185 \208\180\208\190\208\188 (\209\129\208\191\208\176\208\178\208\189)"]["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Guest1337.QueryHitbox.CFrame
+	wait(10)
+	workspace.Map.Lobby.Interior["\208\158\209\129\208\189\208\190\208\178\208\189\208\190\208\185 \208\180\208\190\208\188 (\209\129\208\191\208\176\208\178\208\189)"]["\208\159\208\190\208\187"].CFrame = 
 end)
