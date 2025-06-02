@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
 
-local Window = Library.CreateLib("c00lgui V1.6", "RJTheme4")
+local Window = Library.CreateLib("c00lgui V1.666", "RJTheme4")
 
 local Tab = Window:NewTab("c00lgui")
 
@@ -27,38 +27,69 @@ Text.Position = Vector2.new(780, 500)
 Section:NewButton("shedletsky teleport like 007n7", "teleport like 007n7", function()
   local randomNumber = math.random(1,6)
   print(randomNumber)
-  Square.Transparency = 0.991
-  Text.Text = "6"
+  Square.Transparency = 0.97
+  Text.Text = "H0aKci7ng Sy5st7m"
   wait(1)
   Text.Text = "5"
   wait(1)
   Text.Text = "4"
   wait(1)
   Text.Text = "3"
+  Square.Transparency = 0.9
   wait(1)
   Text.Text = "2"
+  Square.Transparency = 0.8
   wait(1)
   Text.Text = "1"
+  Square.Transparency = 0.7
   wait(1)
-  Text.Text = " "
+ Text.Text = "H0aKci7ng Sy5st7m su1C4fful7"
   Square.Transparency = 0
   workspace.Players.Survivors.Shedletsky["Left Arm"].CFrame = workspace.Map.Ingame.Map.SpawnPoints.Survivors:GetChildren()[randomNumber].CFrame
+end)
+
+Section:NewButton("two time teleport like 007n7", "teleport like 007n7", function()
+  local randomNumber = math.random(1,6)
+  print(randomNumber)
+  Square.Transparency = 0.97
+  Text.Text = "H0aKci7ng Sy5st7m"
+  wait(1)
+  Text.Text = "5"
+  wait(1)
+  Text.Text = "4"
+  wait(1)
+  Text.Text = "3"
+  Square.Transparency = 0.9
+  wait(1)
+  Text.Text = "2"
+  Square.Transparency = 0.8
+  wait(1)
+  Text.Text = "1"
+  Square.Transparency = 0.7
+  wait(1)
+  Text.Text = "H0aKci7ng Sy5st7m su1C4fful7"
+  Square.Transparency = 0
+  workspace.Players.Survivors.TwoTime["Left Arm"].CFrame = workspace.Map.Ingame.Map.SpawnPoints.Survivors:GetChildren()[randomNumber].CFrame
 end)
 
 Section:NewButton("chance teleport like 007n7", "teleport like 007n7", function()
   local randomNumber = math.random(1,6)
   print(randomNumber)
-  Square.Transparency = 0.991
+  Square.Transparency = 0.97
+  Text.Text = "H0aKci7ng Sy5st7m"
   wait(1)
   Text.Text = "4"
   wait(1)
   Text.Text = "3"
+  Square.Transparency = 0.9
   wait(1)
   Text.Text = "2"
+  Square.Transparency = 0.8
   wait(1)
   Text.Text = "1"
+  Square.Transparency = 0.7
   wait(1)
-  Text.Text = " "
+  Text.Text = "H0aKci7ng Sy5st7m su1C4fful7"
   Square.Transparency = 0
   workspace.Players.Survivors["chance"]["Left Arm"].CFrame = workspace.Map.Ingame.Map.SpawnPoints.Survivors:GetChildren()[randomNumber].CFrame
 end)
@@ -66,7 +97,7 @@ end)
 Section:NewButton("guest teleport like 007n7", "teleport like 007n7", function()
   local randomNumber = math.random(1,6)
   print(randomNumber)
-  Square.Transparency = 0.991
+  Square.Transparency = 0.97
   Text.Text = "6"
   wait(1)
   Text.Text = "5"
@@ -90,7 +121,7 @@ end)
 Section:NewButton("007n7 teleport like 007n7", "teleport like 007n7", function()
   local randomNumber = math.random(1,6)
   print(randomNumber)
-  Square.Transparency = 0.991
+  Square.Transparency = 0.97
   Text.Text = "6"
   wait(1)
   Text.Text = "5"
