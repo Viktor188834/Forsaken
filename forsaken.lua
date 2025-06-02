@@ -378,7 +378,7 @@ Section:NewButton("Jason teleport to Jane doe", "Jason teleport to Jane doe", fu
   workspace.Players.Killers.Jason["Left Leg"].CFrame = workspace.Players.Survivors.JaneDoe.Head.CFrame
 end)
 
-local Tab = Window:NewTab("(no)c00l Mandy script")
+local Tab = Window:NewTab("c00l Mandy script")
 local Section = Tab:NewSection("c00l mandy script")
 Section:NewButton("open Mandy script", "open Mandy script", function()
   Text.Text = "1"
