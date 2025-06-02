@@ -43,7 +43,7 @@ Section:NewButton("shedletsky teleport like 007n7", "teleport like 007n7", funct
   Text.Text = "1"
   Square.Transparency = 0.7
   wait(1)
- Text.Text = "H0aKci7ng Sy5st7m su1C4fful7"
+  Text.Text = "H0aKci7ng Sy5st7m su1C4fful7"
   Square.Transparency = 0
   workspace.Players.Survivors.Shedletsky["Left Arm"].CFrame = workspace.Map.Ingame.Map.SpawnPoints.Survivors:GetChildren()[randomNumber].CFrame
 end)
@@ -150,10 +150,10 @@ local Section = Tab:NewSection("john doe hunt")
 
 Section:NewButton("John Doe teleport to Noob", "John Doe teleport to Noob", function()
   Text.Text = "1"
-    Square.Transparency = 0.8
+  Square.Transparency = 0.8
   wait(1)
   Text.Text = " "
-    Square.Transparency = 0
+  Square.Transparency = 0
   workspace.Players.Killers.JohnDoe["Right Leg"].CFrame = workspace.Players.Survivors["Noob"].Head.CFrame
 end)
 
