@@ -435,69 +435,69 @@ local Section = Tab:NewSection("Tr00lgui")
 
 Section:NewToggle("(10s) Guest up", "(10s) Guest up", function(state)
     if state then
-        workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Guest1337.QueryHitbox.CFrame
+        workspace.Map.Lobby.Environment:GetChildren()[7].CFrame = workspace.Players.Survivors.Guest1337.QueryHitbox.CFrame
 		wait(0.04)
-		workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Guest1337.QueryHitbox.CFrame
+		workspace.Map.Lobby.Environment:GetChildren()[7].CFrame = workspace.Players.Survivors.Guest1337.QueryHitbox.CFrame
 		wait(0.04)
-		workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Guest1337.QueryHitbox.CFrame
+		workspace.Map.Lobby.Environment:GetChildren()[7].CFrame = workspace.Players.Survivors.Guest1337.QueryHitbox.CFrame
     else
-        workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = CFrame.new(-3543.51733, 0.833288789, 837.421021, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        workspace.Map.Lobby.Environment:GetChildren()[7].CFrame = CFrame.new(-3453.92847, -1.203825, 251.815643, 1, 0, 0, 0, 1, 0, 0, 0, 1)
     end
 end)
 
 Section:NewToggle("(10s)Shedletsky Guest up", "(10s) Shedletsky Guest up", function(state)
     if state then
-        workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Shedletsky.QueryHitbox.CFrame
+        workspace.Map.Lobby.Environment:GetChildren()[7].CFrame = workspace.Players.Survivors.Shedletsky.QueryHitbox.CFrame
 		wait(0.04)
-		workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Shedletsky.QueryHitbox.CFrame
+		workspace.Map.Lobby.Environment:GetChildren()[7].CFrame = workspace.Players.Survivors.Shedletsky.QueryHitbox.CFrame
 		wait(0.04)
-		workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Shedletsky.QueryHitbox.CFrame
+		workspace.Map.Lobby.Environment:GetChildren()[7].CFrame = workspace.Players.Survivors.Shedletsky.QueryHitbox.CFrame
     else
-        workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = CFrame.new(-3543.51733, 0.833288789, 837.421021, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        workspace.Map.Lobby.Environment:GetChildren()[7].CFrame = CFrame.new(-3453.92847, -1.203825, 251.815643, 1, 0, 0, 0, 1, 0, 0, 0, 1)
     end
 end)
 
 Section:NewToggle("(10s) Two time up", "(10s) Two time up", function(state)
     if state then
-        workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.TwoTime.QueryHitbox.CFrame
+        workspace.Map.Lobby.Environment:GetChildren()[7].MeshPart.CFrame = workspace.Players.Survivors.TwoTime.QueryHitbox.CFrame
 		wait(0.04)
-		workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.TwoTime.QueryHitbox.CFrame
+		workspace.Map.Lobby.Environment:GetChildren()[7].MeshPart.CFrame = workspace.Players.Survivors.TwoTime.QueryHitbox.CFrame
 		wait(0.04)
-		workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.TwoTime.QueryHitbox.CFrame
+		workspace.Map.Lobby.Environment:GetChildren()[7].MeshPart.CFrame = workspace.Players.Survivors.TwoTime.QueryHitbox.CFrame
     else
-        workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = CFrame.new(-3543.51733, 0.833288789, 837.421021, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        workspace.Map.Lobby.Environment:GetChildren()[7].CFrame = CFrame.new(-3453.92847, -1.203825, 251.815643, 1, 0, 0, 0, 1, 0, 0, 0, 1)
     end
 end)
 
 Section:NewKeybind("(10s) Guest up", "(10s) Shedletsky tp up", Enum.KeyCode.M, function()
-	workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].Transparency = 0.5555555
-	workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Guest1337.QueryHitbox.CFrame
+	workspace.Map.Lobby.Environment:GetChildren()[7].MeshPart = 0.5555555
+	workspace.Map.Lobby.Environment:GetChildren()[7].MeshPart.CFrame = workspace.Players.Survivors.Guest1337.QueryHitbox.CFrame
 	wait(0.06)
-	workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Guest1337.QueryHitbox.CFrame
+	workspace.Map.Lobby.Environment:GetChildren()[7].MeshPart.CFrame = workspace.Players.Survivors.Guest1337.QueryHitbox.CFrame
 	wait(0.06)
-	workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Guest1337.QueryHitbox.CFrame
+	workspace.Map.Lobby.Environment:GetChildren()[7].MeshPart.CFrame = workspace.Players.Survivors.Guest1337.QueryHitbox.CFrame
 	wait(10)
-	workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = CFrame.new(-3543.51733, 0.833288789, 837.421021, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+	workspace.Map.Lobby.Environment:GetChildren()[7].MeshPart.CFrame = CFrame.new(-3453.92847, -1.203825, 251.815643, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 end)
 
 Section:NewKeybind("(10s) Shedletsky up", "(10s) Shedletsky", Enum.KeyCode.P, function()
-	workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].Transparency = 0.5555555
-	workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Shedletsky.QueryHitbox.CFrame
+	workspace.Map.Lobby.Environment:GetChildren()[7].MeshPart.Transparency = 0.5555555
+	workspace.Map.Lobby.Environment:GetChildren()[7].MeshPart.CFrame = workspace.Players.Survivors.Shedletsky.QueryHitbox.CFrame
 	wait(0.06)
-	workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Shedletsky.QueryHitbox.CFrame
+	workspace.Map.Lobby.Environment:GetChildren()[7].MeshPart.CFrame = workspace.Players.Survivors.Shedletsky.QueryHitbox.CFrame
 	wait(0.06)
-	workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.Shedletsky.QueryHitbox.CFrame
+	workspace.Map.Lobby.Environment:GetChildren()[7].MeshPart.CFrame = workspace.Players.Survivors.Shedletsky.QueryHitbox.CFrame
 	wait(10)
-	workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = CFrame.new(-3543.51733, 0.833288789, 837.421021, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+	workspace.Map.Lobby.Environment:GetChildren()[7].MeshPart.CFrame = CFrame.new(-3453.92847, -1.203825, 251.815643, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 end)
 
 Section:NewKeybind("(10s) Two time up", "(10s) tp up", Enum.KeyCode.L, function()
-	workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].Transparency = 0.5555555
-	workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.TwoTime.QueryHitbox.CFrame
+	workspace.Map.Lobby.Environment:GetChildren()[7].MeshPart.Transparency = 0.5555555
+	workspace.Map.Lobby.Environment:GetChildren()[7].MeshPart.CFrame = workspace.Players.Survivors.TwoTime.QueryHitbox.CFrame
 	wait(0.06)
-	workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.TwoTime.QueryHitbox.CFrame
+	workspace.Map.Lobby.Environment:GetChildren()[7].MeshPart.CFrame = workspace.Players.Survivors.TwoTime.QueryHitbox.CFrame
 	wait(0.06)
-	workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = workspace.Players.Survivors.TwoTime.QueryHitbox.CFrame
+	workspace.Map.Lobby.Environment:GetChildren()[7].MeshPart.CFrame = workspace.Players.Survivors.TwoTime.QueryHitbox.CFrame
 	wait(10)
-	workspace.Map.Lobby.Interior["\208\159\208\190\208\187"].CFrame = CFrame.new(-3543.51733, 0.833288789, 837.421021, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+	workspace.Map.Lobby.Environment:GetChildren()[7].MeshPart.CFrame = CFrame.new(-3453.92847, -1.203825, 251.815643, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 end)
