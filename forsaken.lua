@@ -435,6 +435,7 @@ local Section = Tab:NewSection("Tr00lgui")
 
 Section:NewToggle("(10s) Guest up", "(10s) Guest up", function(state)
     if state then
+	workspace.Map.Lobby.Environment:GetChildren()[6]:GetChildren()[215].Transparency = 0.5555555
        workspace.Map.Lobby.Environment:GetChildren()[6]:GetChildren()[215].CFrame = workspace.Players.Survivors.Guest1337.QueryHitbox.CFrame
 		wait(0.04)
 		workspace.Map.Lobby.Environment:GetChildren()[6]:GetChildren()[215].CFrame = workspace.Players.Survivors.Guest1337.QueryHitbox.CFrame
@@ -447,6 +448,7 @@ end)
 
 Section:NewToggle("(10s)Shedletsky Guest up", "(10s) Shedletsky Guest up", function(state)
     if state then
+	workspace.Map.Lobby.Environment:GetChildren()[6]:GetChildren()[215].Transparency = 0.5555555
         workspace.Map.Lobby.Environment:GetChildren()[6]:GetChildren()[215].CFrame = workspace.Players.Survivors.Shedletsky.QueryHitbox.CFrame
 		wait(0.04)
 		workspace.Map.Lobby.Environment:GetChildren()[6]:GetChildren()[215].CFrame = workspace.Players.Survivors.Shedletsky.QueryHitbox.CFrame
@@ -459,6 +461,7 @@ end)
 
 Section:NewToggle("(10s) Two time up", "(10s) Two time up", function(state)
     if state then
+	workspace.Map.Lobby.Environment:GetChildren()[6]:GetChildren()[215].Transparency = 0.5555555
         workspace.Map.Lobby.Environment:GetChildren()[6]:GetChildren()[215].CFrame = workspace.Players.Survivors.TwoTime.QueryHitbox.CFrame
 		wait(0.04)
 		workspace.Map.Lobby.Environment:GetChildren()[6]:GetChildren()[215].CFrame = workspace.Players.Survivors.TwoTime.QueryHitbox.CFrame
